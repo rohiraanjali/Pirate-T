@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pirate Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 </head>
 <body>
     <header class="header container"></header>
@@ -13,21 +15,27 @@
         </h1>
     </nav>
     <main>
-    <textarea placeholder ="Enter your text here"></textarea> //input 
-    <button id= "btn-translate">Translate</button> //processing 
-    <div>
-        <p> Your translation will appear here below.</p>
+    <textarea placeholder ="Enter your text here...."></textarea> 
+    <button id= "btn-translate">Translate</button> 
+        <div id="output" style= "padding: 0rem; font-size: large;">
+        <p style="color: white;
+         font-family: Segoe UI , Roboto;
+         font-weight: semi-bolder;">
+        <mark> Translation will appear here 👇 </mark></p>
+        </div>
 
-        <div id="output" style= "padding: 1rem; font-size: large;"></div> //output 
-    </div>
     </main>
 <footer>
-    <div style= "font-size: x-large;">About</div>
+    <div style= "font-size: x-large; font-weight: bolder;">About</div>
     <p>
         Do you also want to imagine youself as pirates by speaking their language? 
         Translate from english to their languages in just few secs and be @Pirate. 
-        <mark>cc: @anjali.rohira,2020</mark>
+    </p>
+        <br>
+        <mark> ©anjali.rohira,2020</mark>
     </p>
 </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
