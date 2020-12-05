@@ -17,7 +17,7 @@ function clickHandler() {
 
         output.innerText = json.contents.translated;
     
-    })
+    }) // catching error 
     .catch(err => alert(err +" occured please try after sometime"))
 }
 btnTranslate.addEventListener('click', clickHandler);
