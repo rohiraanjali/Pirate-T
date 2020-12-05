@@ -43,7 +43,7 @@ textarea {
   font-size: larger;
   font-weight: bold;
   background-color: var(--primary-color);
-  color: red;
+  color: white;
   font-weight: lighter;
 }
 
@@ -73,10 +73,11 @@ textarea {
   height: 20vh;
   width: 100%;
   background-color: var(--primary-color);
-  color: white;
+  color: red;
   margin: auto;
   display: block;
   font-weight: 500;
+  font-family: "Segoe UI", "Roboto";
 }
 
 footer {
@@ -93,5 +94,5 @@ footer {
 
 mark {
   background-color: #e0ffff;
-  font-weight: bolder;s
+  font-weight: bolder;
 }
